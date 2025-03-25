@@ -1,2 +1,4 @@
 /venv
 /.idea/
+/coletaDados/clientes.csv
+/tratamento_dados/clientes.csv

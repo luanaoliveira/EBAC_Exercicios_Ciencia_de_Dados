@@ -1,3 +1,4 @@
+import numpy as np
 import pandas
 import random
 
@@ -8,7 +9,7 @@ faker = Faker('pt_BR')
 
 personal_data = []
 
-for _ in range(10):
+for _ in range(1027):
     name = faker.name()
     cpf = faker.cpf()
     age = random.randint(a=18, b=60)
@@ -31,6 +32,17 @@ for _ in range(10):
 
 df_people = pd.DataFrame(personal_data)
 print(df_people)
+
+df_people.loc[2] = [np.nan, np.nan, 56, np.nan, np.nan, np.nan, 'Brasil']
+df_people.loc[5] = [np.nan, np.nan, 56, np.nan, np.nan, np.nan, 'Brasil']
+df_people.loc[6] = [np.nan, np.nan, 56, np.nan, np.nan, np.nan, 'Brasil']
+df_people.loc[1021] = ['Carlos Eduardo Gonçalves', np.nan, 56, np.nan, np.nan, np.nan, 'Brasil']
+df_people.loc[1022] = ['Carlos Eduardo Gonçalves', np.nan, 56, np.nan, np.nan, np.nan, 'Brasil']
+df_people.loc[1023] = ['Carlos Eduardo Gonçalves', np.nan, 56, np.nan, 'Setor Vitor Hugo Pinto, 32\nSão Benedito\n29887089 Cirino / RS', 'Pernambuco', 'Brasil']
+df_people.loc[1024] = ['Carlos Eduardo Gonçalves', np.nan, 56, np.nan, 'Setor Vitor Hugo Pinto, 32\nSão Benedito\n29887089 Cirino / RS', 'Pernambuco', 'Brasil']
+df_people.loc[1025] = ['Carlos Eduardo Gonçalves', '283.150.794-41', 56, '21/08/1968', 'Setor Vitor Hugo Pinto, 32\nSão Benedito\n29887089 Cirino / RS', 'Pernambuco', 'Brasil']
+df_people.loc[1026] = ['Carlos Eduardo Gonçalves', '283.150.794-41', 56, '21/08/1968', 'Setor Vitor Hugo Pinto, 32\nSão Benedito\n29887089 Cirino / RS', 'Pernambuco', 'Brasil']
+df_people.loc[1027] = ['Carlos Eduardo Gonçalves', '283.150.794-41', 56, '21/08/1968', 'Setor Vitor Hugo Pinto, 32\nSão Benedito\n29887089 Cirino / RS', 'Pernambuco', 'Brasil']
 
 pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
