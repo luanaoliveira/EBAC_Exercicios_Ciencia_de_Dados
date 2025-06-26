@@ -1,42 +1,87 @@
 # 📊 EBAC - Exercícios de Ciência de Dados
 
-Este repositório contém os exercícios realizados durante o curso de **Ciência de Dados** da [EBAC](https://ebaconline.com.br/). O objetivo é consolidar o aprendizado por meio da prática, abordando diferentes etapas do fluxo de dados.
+Este repositório reúne os exercícios desenvolvidos ao longo do curso de **Ciência de Dados da EBAC**. O objetivo é consolidar o aprendizado através da prática, abordando diversas etapas do fluxo de dados: coleta, preparação, tratamento e visualização.
 
-## 📂 Estrutura
+---
 
-Os exercícios serão adicionados conforme o progresso no curso. Cada pasta representa um tema ou aula específica abordada.
+## 📁 Estrutura
 
-## 🚀 Como Usar
+Os exercícios estão organizados por temas:
 
-Para visualizar e rodar os exercícios localmente:
+- 📥 [`coletaDados`](./coletaDados) — Scripts relacionados à coleta e ingestão de dados.
+- 🧹 [`preparacao_dados`](./preparacao_dados) — Limpeza e transformação inicial.
+- 🧪 [`tratamento_dados`](./tratamento_dados) — Tratamentos mais específicos e análises exploratórias.
+
+---
+
+## 🚀 Como Executar
 
 1. Clone o repositório:  
    ```bash
    git clone https://github.com/seu-usuario/EBAC_Exercicios_Ciencia_de_Dados.git
    
-2. Acesse a pasta desejada e abra os arquivos no Jupyter Notebook, PyCharm ou VSCode.
+2. Crie um ambiente virtual e ative:
+
+    ```bash
+    python3 -m venv .venv
+    source .venv/bin/activate    # Linux/macOS
+    .venv\Scripts\activate.bat   # Windows
+   
+3. Instale as dependências:
+
+    ```bash
+    pip install -r requirements.txt
+
+4. Abra os arquivos com sua IDE favorita:
+    - Jupyter Notebook
+    - PyCharm 
+    - VS Code
 
 ## 📝 Atualizações
-Este repositório será atualizado continuamente conforme novos exercícios forem adicionados.
+Este repositório será atualizado continuamente conforme o curso avança.
 
 
 ---
 
-
 # 📊 EBAC - Data Science Exercises
-This repository contains the exercises completed during the Data Science course at EBAC. The goal is to consolidate learning through practice, covering different stages of the data flow.
 
-## 📂 Structure
-The exercises will be added as the course progresses. Each folder represents a specific topic or lesson covered.
+This repository contains the exercises developed throughout the **EBAC Data Science course**. The goal is to reinforce learning through hands-on practice, covering different stages of the data workflow: data collection, preparation, processing, and visualization.
 
-## 🚀 How to Use
-To view and run the exercises locally:
+---
 
-1. Clone the repository:
+## 📁 Structure
+
+The exercises are organized by topic:
+
+- 📥 [`coletaDados`](./coletaDados) — Scripts related to data collection and ingestion.
+- 🧹 [`preparacao_dados`](./preparacao_dados) — Initial cleaning and transformation.
+- 🧪 [`tratamento_dados`](./tratamento_dados) — Specific processing and exploratory analysis.
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository:  
    ```bash
    git clone https://github.com/seu-usuario/EBAC_Exercicios_Ciencia_de_Dados.git
+   
+2. Create and activate a virtual environment:
 
-2. Access the desired folder and open the files in Jupyter Notebook, PyCharm, or VSCode.
+    ```bash
+    python3 -m venv .venv
+    source .venv/bin/activate    # Linux/macOS
+    .venv\Scripts\activate.bat   # Windows
+   
+3. Install the dependencies:
+
+    ```bash
+    pip install -r requirements.txt
+
+4. Open the files using your preferred IDE:
+    - Jupyter Notebook
+    - PyCharm 
+    - VS Code
 
 ## 📝 Updates
-This repository will be continuously updated as new exercises are added.
+
+Se quiser, posso te ajudar a fazer uma versão bilíngue combinada, com seções em português e inglês lado a lado. Deseja isso?

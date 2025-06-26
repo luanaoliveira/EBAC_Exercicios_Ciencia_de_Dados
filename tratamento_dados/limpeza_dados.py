@@ -1,4 +1,3 @@
-import pandas
 import pandas as pd
 
 pd.set_option('display.width', None)

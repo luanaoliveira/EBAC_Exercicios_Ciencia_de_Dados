@@ -1,4 +1,10 @@
-/venv
-/.idea/
-/coletaDados/clientes.csv
+venv/
+.idea/
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+*.bak
+/coleta_dados/clientes.csv
 /tratamento_dados/clientes.csv
+
