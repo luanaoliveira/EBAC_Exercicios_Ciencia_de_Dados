@@ -54,4 +54,3 @@ df_save = df[['name', 'cpf', 'age', 'data', 'address', 'state']]
 df_save.to_csv('clientes_limpeza.csv', index=False)
 
 print('Novo DataFrame: \n', pd.read_csv('clientes_limpeza.csv'))
-
